@@ -1,25 +1,33 @@
 /* Importación de fuentes */
 @font-face {
     font-family: 'Young Serif';
-    src: url('./young-serif/YoungSerif-Regular.ttf') format('truetype');
+    src: url('../assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+/* Outfit - Variable Font (opción moderna) */
+@font-face {
+    font-family: 'Outfit';
+    src: url('../assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype-variations');
+    font-weight: 100 900; /* Rango completo de pesos */
+}
+
+/* Outfit - Static Fonts (fallback) */
+@font-face {
+    font-family: 'Outfit';
+    src: url('../assets/fonts/outfit/static/Outfit-Regular.ttf') format('truetype');
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'Outfit';
-    src: url('./outfit/Outfit-Regular.ttf') format('truetype');
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: 'Outfit';
-    src: url('./outfit/Outfit-SemiBold.ttf') format('truetype');
+    src: url('../assets/fonts/outfit/static/Outfit-SemiBold.ttf') format('truetype');
     font-weight: 600;
 }
 
 @font-face {
     font-family: 'Outfit';
-    src: url('./outfit/Outfit-Bold.ttf') format('truetype');
+    src: url('../assets/fonts/outfit/static/Outfit-Bold.ttf') format('truetype');
     font-weight: 700;
 }
 
